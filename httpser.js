@@ -9,7 +9,7 @@ app.use(express.urlencoded());
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://staging:rvZT2DO4eXGwnRmF@bee-7isf3.mongodb.net/staging", {useNewUrlParser:true, useUnifiedTopology: true}, function(){
+mongoose.connect("mongodb+srv://Your_localhost_Url/Your_dbname", {useNewUrlParser:true, useUnifiedTopology: true}, function(){
     console.log("Success")
 })
 
